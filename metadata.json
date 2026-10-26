@@ -1,0 +1,8 @@
+{
+  "name": "Remix OM Bank Ever After Fund",
+  "description": "A unified mobile banking prototype for OM Bank\u0027s Ever After Fund — planning lobola, wedding savings, and joint financial futures with cultural calibration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #E4ECE6;
+    font-family: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+/* Custom soundwave animation for audio on/off */
+@keyframes soundwave {
+  0%, 100% { height: 4px; }
+  50% { height: 16px; }
+}
+
+.wave-bar-1 { animation: soundwave 1.1s ease-in-out infinite; }
+.wave-bar-2 { animation: soundwave 0.8s ease-in-out infinite 0.2s; }
+.wave-bar-3 { animation: soundwave 1.3s ease-in-out infinite 0.4s; }
+.wave-bar-4 { animation: soundwave 0.9s ease-in-out infinite 0.1s; }
+.wave-bar-5 { animation: soundwave 1.2s ease-in-out infinite 0.3s; }
+
+/* Safe area insets for standalone PWA on mobile */
+.pt-safe {
+  padding-top: max(env(safe-area-inset-top), 0.75rem);
+}
+.pb-safe {
+  padding-bottom: max(env(safe-area-inset-bottom), 0.75rem);
+}
+
+/* Hide scrollbars for slick native mobile look */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
