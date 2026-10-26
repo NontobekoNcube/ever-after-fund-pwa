@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/ever-after-fund-pwa/sw.js', { scope: '/ever-after-fund-pwa/' })})}
