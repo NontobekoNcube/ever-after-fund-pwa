@@ -6,7 +6,7 @@ import {VitePWA} from 'vite-plugin-pwa';
 
 export default defineConfig(() => {
   return {
-    base: '/EverAfter/', // Points the build to your exact GitHub repository folder
+    base: '/ever-after-fund-pwa/', // Points the build to your exact GitHub repository folder
     plugins: [
       react(),
       tailwindcss(),
