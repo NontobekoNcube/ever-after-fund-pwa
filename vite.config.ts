@@ -14,7 +14,6 @@ export default defineConfig(() => {
         registerType: 'autoUpdate',
         includeAssets: ['favicon.png', 'apple-touch-icon.png', 'icon.svg'],
         manifest: {
-          id: '/',
           name: 'OM Bank - Ever After Fund',
           short_name: 'Ever After',
           description: 'Culturally informed lobola planning and joint wedding savings with OM Bank.',
@@ -22,8 +21,8 @@ export default defineConfig(() => {
           background_color: '#E4ECE6',
           display: 'standalone',
           orientation: 'portrait',
-          start_url: '/',
-          scope: '/',
+          start_url: '/ever-after-fund-pwa/',
+          scope: '/ever-after-fund-pwa/',
           icons: [
             {
               src: '/pwa-192x192.png',
